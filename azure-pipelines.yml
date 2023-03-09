@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'HostedVS2017'#windows-latest'
+  vmImage: 'ubuntu-latest'#windows-latest'
 
 variables:
   solution: '**/*.sln'
